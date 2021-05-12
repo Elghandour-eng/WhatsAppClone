@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:wahtsappclone/Screens/cameraView.dart';
 
 class HomeScreen extends StatefulWidget {
   static String id = 'home';
@@ -104,12 +105,10 @@ indicatorColor: Colors.white,
       body: TabBarView(
         controller: controller,
         children: [
-           Text('Caths'),
+          CameraViewWidget(),
           Text('Caths'),
           Text('Caths'),
           Text('Caths'),
-
-
         ],
       ),
     );

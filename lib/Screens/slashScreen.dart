@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:wahtsappclone/Screens/homeScreen.dart';
@@ -28,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Icon(
               FontAwesomeIcons.whatsapp,
               color: Colors.green,
-              size:MediaQuery.of(context).size.height*.15,
+              size: MediaQuery.of(context).size.height * .15,
             )),
           ],
         ),
